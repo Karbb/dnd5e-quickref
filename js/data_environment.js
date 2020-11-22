@@ -1,19 +1,19 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
+        title: "Leggermente oscurato",
         icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage",
+        subtitle: "Svantaggio sulla Percezione",
+        description: "Luce fioca, nebbia rarefatta o fogliame moderato",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "Creature hanno svantaggio alle <b>prove di Saggezza (Percezione)</b> basate sulla vista."
         ]
     },
     {
-        title: "Heavily obscured",
+        title: "Pesantemente oscurata",
         icon: "lightning-tear",
         subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
+        description: "Oscurità, fitta nebbia o fogliame denso",
         reference: "PHB, pg. 183.",
         bullets: [
             "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
@@ -23,7 +23,7 @@ data_environment_obscurance = [
 
 data_environment_light = [
     {
-        title: "Bright light",
+        title: "Luce intensa",
         icon: "star-pupil",
         subtitle: "Normal vision",
         description: "Bright light lets most creatures see normally",
@@ -33,7 +33,7 @@ data_environment_light = [
         ]
     },
     {
-        title: "Dim light",
+        title: "Luce fioca",
         icon: "semi-closed-eye",
         subtitle: "Lightly obscured",
         description: "Dim light, also called shadows",
@@ -45,7 +45,7 @@ data_environment_light = [
         ]
     },
     {
-        title: "Darkness",
+        title: "Oscurità",
         icon: "worried-eyes",
         subtitle: "Heavily obscured",
         description: "Darkness creates a heavily obscured area",
@@ -69,9 +69,9 @@ data_environment_vision = [
         ]
     },
     {
-        title: "Darkvision",
+        title: "Scurovisione",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
+        subtitle: "Limitata visione nel buio",
         description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
         reference: "PHB, pgs. 183-184.",
         bullets: [
@@ -95,38 +95,38 @@ data_environment_vision = [
 
 data_environment_cover = [
     {
-        title: "Half cover",
+        title: "Mezza copertura",
         icon: "broken-shield",
-        subtitle: "Low wall, furniture, creatures",
+        subtitle: "Muretto, grosso mobile, tronco d'albero esile o una creatura (amica o nemica)",
         description: "A target has half cover if an obstacle blocks at least half of its body",
         reference: "PHB, pg. 196.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "L'ostacolo potrebbe essere un muretto basso, un grosso mobile, un esile tronco d'albero o una creatura (amica o nemica che sia).",
+            "Un bersaglio con mezza copertura ottiene un <b>bonus di +2 alla CA e ai tiri salvezza su Destrezza</b>.",
+            "Se il bersaglio si trova dietro più fonti di copertura, soltanto il grando più protettivo di copertura viene applicato. I gradi non sono cumulativi"
         ]
     },
     {
-        title: "Three-quarters cover",
+        title: "Tre quarti di copertura",
         icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
+        subtitle: "Saracinesca, feritoia",
         description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
         reference: "PHB, pg. 196.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "L'ostacolo potrebbe essere una saracinesca, una feritoia o un grosso tronco d'albero.",
+            "Un bersaglio con tre quarti di copertura ottiene un <b>bonus du +5 bonus alla CA e ai tiri salvezza su Destrezza</b>.",
+            "Se il bersaglio si trova dietro più fonti di copertura, soltanto il grando più protettivo di copertura viene applicato"
         ]
     },
     {
-        title: "Full cover",
+        title: "Copertura totale",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
+        subtitle: "Completamente occultato",
+        description: "Un bersaglio beneficia di copertura totale se è completamente occultato da un ostacolo",
         reference: "PHB, pg. 196.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Un bersaglio con copertura totale <b>non può essere bersagliato direttamente da un attacco o da un incantesimo</b>, anche se certi incantesimi possono raggiungere un bersaglio di questo tipo includendolo in un'area di effetto.",
+            "Se il bersaglio si trova dietro più fonti di copertura, soltanto il grando più protettivo di copertura viene applicato"
         ]
     }
 ]
