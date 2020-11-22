@@ -1,35 +1,35 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "Accecato",
         icon: "one-eyed",
-        subtitle: "You can't see",
+        subtitle: "Non puoi vedere",
         description: "You can't see",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Fallisci automaticamente ogni prova d'abilità che richieda l'uso della vista.",
+            "Hai svantaggio ai tiri per colpire.",
+            "I tiri per colpire contro di te hanno vantaggio."
         ]
     },
     {
-        title: "Charmed",
+        title: "Affascinato",
         icon: "smitten",
-        subtitle: "You are charmed",
+        subtitle: "Sei affascinato",
         description: "You are charmed by another creature",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Non puoi attaccare colui che t'ha affascinato con capacità o effetti magici dannosi.",
+            "Colui che t'ha affascianto ha vantaggio a qualsiasi prova di caratteristica effettuata per interagire socialmente con te."
         ]
     },
     {
-        title: "Deafened",
+        title: "Assordato",
         icon: "elf-ear",
-        subtitle: "You can't hear",
+        subtitle: "Non puoi sentire",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Fallisci automaticamente ogni prova d'abilità che richieda l'uso dell'udito."
         ]
     },
     {
