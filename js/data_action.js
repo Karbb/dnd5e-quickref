@@ -10,7 +10,7 @@ data_action = [
             "Quando attacchi con un'arma da mischia leggera, puoi usare un'azione bonus per attaccare con l'altra mano (vedi l'azione bonus <i>Attacco con la mano secondaria</i>)",
             "Puoi sostituire uno dei tuoi attacchi da corpo a corpo con una <i>Presa</i> o una <i>Spinta</i>.", "Puoi sostituire uno dei tuoi attacchi da corpo a corpo con un <i>Ancino</i>.",
             "Alcune condizioni danno vantaggio sull'attacco: attacchi contro bersagli accecati, paralizzati, pietrificati, trattenuti, storditi o incoscienti; attacchi da corpo a corpo contro bersagli proni; attacchi da parte di aggressori invisibili o nascosti",
-            "Alcune condizioni danno svantaggio all'attacco: attacchi contro bersagli invisibili o nascosti; attacchi a distanza contro bersagli proni; attacchi da parte di aggressori accecati, spaventati, avvelenati, avvelenati o trattenuti".
+            "Alcune condizioni danno svantaggio all'attacco: attacchi contro bersagli invisibili o nascosti; attacchi a distanza contro bersagli proni; attacchi da parte di aggressori accecati, spaventati, avvelenati, avvelenati o trattenuti"
         ]
     },
     {
