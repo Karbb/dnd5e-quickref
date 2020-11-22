@@ -97,7 +97,7 @@ data_environment_cover = [
     {
         title: "Mezza copertura",
         icon: "broken-shield",
-        subtitle: "Muretto, grosso mobile, tronco d'albero esile o una creatura (amica o nemica)",
+        subtitle: "Muretto, creature",
         description: "A target has half cover if an obstacle blocks at least half of its body",
         reference: "PHB, pg. 196.",
         bullets: [
