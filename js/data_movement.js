@@ -49,7 +49,7 @@ data_movement = [
         title: "Striscare",
         icon: "crawl",
         subtitle: "Costo: 1.5m per 3m",
-        description: "Costo di movimento: 1.5m per 3m,
+        description: "Costo di movimento: 1.5m per 3m",
         reference: "PHB, pg. 182.",
         bullets: [
 
