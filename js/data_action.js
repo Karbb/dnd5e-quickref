@@ -1,23 +1,23 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Attacco",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "Attacco in mischia o da distanza",
+        description: "Esegui un attacco in mischia o da distanza con la tua arma",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Alcune caratteristiche, come la funzione <i>Attacco Extra</i> del guerriero, permettono di effettuare più di un attacco con questa azione. Ognuno di questi attacchi è un tiro separato e può mirare a creature diverse. Potete muovervi tra questi attacchi",
+            "Quando attacchi con un'arma da mischia leggera, puoi usare un'azione bonus per attaccare con l'altra mano (vedi l'azione bonus <i>Attacco con la mano secondaria</i>)",
+            "Puoi sostituire uno dei tuoi attacchi da corpo a corpo con una <i>Presa</i> o una <i>Spinta</i>.", "Puoi sostituire uno dei tuoi attacchi da corpo a corpo con un <i>Ancino</i>.",
+            "Alcune condizioni danno vantaggio sull'attacco: attacchi contro bersagli accecati, paralizzati, pietrificati, trattenuti, storditi o incoscienti; attacchi da corpo a corpo contro bersagli proni; attacchi da parte di aggressori invisibili o nascosti",
+            "Alcune condizioni danno svantaggio all'attacco: attacchi contro bersagli invisibili o nascosti; attacchi a distanza contro bersagli proni; attacchi da parte di aggressori accecati, spaventati, avvelenati, avvelenati o trattenuti".
         ]
     },
     {
-        title: "Grapple",
+        title: "Presa",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Attacco speciale corpo a corpo",
+        description: "Tentativo di trattenere una creatura o di lottare con essa.",
         reference: "PHB, pg. 195.",
         bullets: [
             "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
@@ -27,10 +27,10 @@ data_action = [
         ]
     },
     {
-        title: "Shove",
+        title: "Spinta",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
+        subtitle: "Attacco speciale corpo a corpo",
+        description: "Spingi una creature, per farla cadere prona o per spingerla via da te.",
         reference: "PHB, pg. 195.",
         bullets: [
             "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
@@ -40,9 +40,9 @@ data_action = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lancia un incantesimo",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
+        subtitle: "Tempo di lancio di 1 azione",
         description: "Cast a spell with a casting time of 1 action",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -53,9 +53,9 @@ data_action = [
         ]
     },
     {
-        title: "Dash",
+        title: "Scatto",
         icon: "sprint",
-        subtitle: "Double movement speed",
+        subtitle: "Velocità di movimento doppia",
         description: "Gain extra movement for the current turn",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -63,18 +63,18 @@ data_action = [
         ]
     },
     {
-        title: "Disengage",
+        title: "Disimpegno",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
+        subtitle: "Previene attacchi di opportunità",
         description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "Schivata",
         icon: "aura",
-        subtitle: "Increase defenses",
+        subtitle: "Aumenta le difese.",
         description: "Focus entirely on avoiding attacks",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -94,9 +94,9 @@ data_action = [
         ]
     },
     {
-        title: "Help",
+        title: "Aiuto",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
+        subtitle: "Fornisce vantaggio ad un alleato",
         description: "Grant an ally advantage on an ability check or attack",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -106,9 +106,9 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
+        title: "Usare un oggetto.",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
+        subtitle: "Interazione, uso di abilità speciali",
         description: "Interact with a second object or use special object abilities",
         reference: "PHB, pg. 193.",
         bullets: [
@@ -117,9 +117,9 @@ data_action = [
         ]
     },
     {
-        title: "Use shield",
+        title: "Usa scudo",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
+        subtitle: "Equipaggia o disequipaggia uno scudo",
         description: "Equip or unequip a shield",
         reference: "PHB, pgs. 144-146.",
         bullets: [
@@ -128,46 +128,47 @@ data_action = [
         ]
     },
     {
-        title: "Hide",
+        title: "Nascondersi",
         icon: "hood",
         subtitle: "",
-        description: "Attempt to hide",
+        description: "Tentativo di nascondersi",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "Non puoi nasconderti da una creatura che può vederti. Devi avere copertura totale, essere in area molto buia, essere invisible o deve esserci qualcosa che blocchi la vista del nemico",
+            "Se fai rumore (come urlare un avvertimento o far cadere un vaso), sarai scoperto.",
+            "Quando provi a nasconderti, effettua una prova di Destrezza (Furtività) e annota il risultato. Finchè non sei scoperto o smetti di nasconderti, quel valore è opposto alla prova di Saggezza (Percezione) di ogni creature che ATTIVAMENTE cercano tracce della tua presenza.",
+            "Una creatura ti noterà anche se non sta cercando a meno che la tua prova di Furtività è più alta della sua Percezione Passiva.",
+            "Fuori dal combattimento, puoi anche usare una prova di Destrezza (Furtività) per azioni come nascondersi dai nemici, sgusciare alle spalle delle guardie, dileguarsi senza essere notato o aggredire qualcuno alle spalle senza essere visto o sentito."
         ]
     },
     {
-        title: "Search",
+        title: "Cercare",
         icon: "magnifying-glass",
         subtitle: "",
-        description: "Devote your attention to finding something",
+        description: "Concentra la tua attenzione per trovare qualcosa",
         reference: "PHB, pg. 193.",
         bullets: [
             "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
         ]
     },
     {
-        title: "Ready",
+        title: "Prepararsi",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
+        subtitle: "Scegli l'innesco e la reazione",
         description: "Choose a trigger and a response reaction",
         reference: "PHB, pg. 193.",
         bullets: [
             "First, you decide what perceivable circumstance will trigger your reaction.",
+            "Per prima cosa, il giocatore deve decidere quale circostanza percettibile innescherà la reazione del personaggio.",
             "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
             "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
             "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usa un talento di classe",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
+        subtitle: "Alcuni talenti usano un'azione",
         description: "Use a racial or class feature that uses an action",
         reference: "See class page for more information.",
         bullets: [
@@ -175,21 +176,21 @@ data_action = [
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "Stabilizzare una creature",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
+        subtitle: "Somministra cure di pronto soccorso ad una creatura morente",
+        description: "Una creatura stabile non effettua tiri salvezza con morte",
         reference: "PHB, pg. 197.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Effettua una prova di Saggezza (Medicina) con CD 10.",
+            "Con un successo, la creature è stabile e non ha più bisogno di effettuare tiri salvezza contro la morte",
+            "Una creatura stabile recupera 1 punto ferita dopo 1d4 ore"
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvvisa",
         icon: "juggler",
-        subtitle: "Any action not on this list",
+        subtitle: "Ogni azione non in questa lista",
         description: "Perform any action you can imagine",
         reference: "PHB, pg. 193.",
         bullets: [
