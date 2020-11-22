@@ -33,7 +33,7 @@ data_condition = [
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Esausto",
         icon: "crawl",
         subtitle: "You are exhausted",
         description: "Exhaustion is measured in six levels",
@@ -46,126 +46,126 @@ data_condition = [
         ]
     },
     {
-        title: "Frightened",
+        title: "Spaventato",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "Sei spaventato",
+        description: "Sei spaventato",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Hai svantaggio alle prove d'abilità e alle prove per colpire finchè la fonte della sua paura rimane entro linea di vista.",
+            "Non puoi volontariamente muoverti per avvicinarti alla fonte della tua paura."
         ]
     },
     {
-        title: "Grappled",
+        title: "Afferrato",
         icon: "grab",
-        subtitle: "You are grappled",
+        subtitle: "Sei stato afferato",
         description: "You are grappled",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "La tua velocità diventa 0 e non puoi beneficiare di alcun bonus alla velocità.",
+            "La condizione termina se chi ti trattiene viene incapacitato.",
+            "La condizione termina anche se sei rimosso dalla portata di chi ti afferrava."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Incapacitato",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "Non puoi effettuare azioni o reazioni",
+        description: "Non puoi effettuare azioni o reazioni",
         reference: "PHB, pg. 290.",
         bullets: [
         ]
     },
     {
-        title: "Invisible",
+        title: "Invisibile",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "Non puoi essere visto",
+        description: "Non puoi essere visto senza l'aiuto della magia o di sensi speciali",
         reference: "PHB, pg. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Agli effetti del nascondersi, una creature invisibile è considerata pesantemente oscurata.",
+            "La tua posizione può essere intuita dai rumori che emetti o dalle tracce che lasci.",
+            "Hai vantaggio ai tiri per colpire.",
+            "I tiri per colpire contro di te hanno svantaggio."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Paralizzato",
         icon: "internal-injury",
         subtitle: "You are paralyzed",
         description: "You can't do anything",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Sei incapacitato e non puoi muoverti o parlare.",
+            "I tiri per colpire contro di te hanno vantaggio.",
+            "Ogni attaccato che ti colpisce è critico se l'attaccante è a 1.5 metri da te.",
+            "Fallisci automaticamente i tiri salvezza su Forza e Destrezza."
         ]
     },
     {
-        title: "Petrified",
+        title: "Pietrificato",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "Sei trasformato in pietra",
+        description: "Sei trasformato, assieme ad ogni oggetto non magico, in una sostanza solida inanimata (solitamente pietra)",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Il tuo peso viene decuplicato e cessi di invecchiare.",
+            "Sei incapacitato, non puoi muoverti o parlare e non sei consapevole di ciò che accade intorno a te.",
+            "I tiri per colpire contro di te hanno vantaggio.",
+            "Fallisci automaticamente i tiri salvezza su Forza e Destrezza.",
+            "Hai resistenza a tutti i tipi di danni.",
+            "Sei immune a veleni e malattie, ma gli eventuali veleni o malattie già presenti nel tuo sistema vengono solo sospesi, non neutralizzati."
         ]
     },
     {
-        title: "Poisoned",
+        title: "Avvelenato",
         icon: "deathcab",
-        subtitle: "You are poisoned",
+        subtitle: "Sei avvelenato",
         description: "You are poisoned",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Hai svantaggio ai tiri per colpire e alle prove di caratteristica."
         ]
     },
     {
-        title: "Prone",
+        title: "Prono",
         icon: "crawl",
         subtitle: "You are prone",
         description: "You are prone",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Puoi solo strisciare, a meno che non ti rialzi in piedi",
+            "Hai svantaggio ai tiri per colpire",
+            "Un tiro per colpire contro di te ha vantaggio se l'attaccante si trova entro 1.5 metri da te. Altrimenti, il tiro per colpire subisce svantaggio."
         ]
     },
     {
-        title: "Restrained",
+        title: "Imprigionato",
         icon: "imprisoned",
         subtitle: "You are restrained",
         description: "You are restrained",
         reference: "PHB, pg. 292.",
         bullets: [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
+            "Hai svantaggio ai tiri per colpire",
             "Attack rolls against you have advantage.",
             "You have disadvantage on Dexterity saving throws."
         ]
     },
     {
-        title: "Stunned",
+        title: "Stordito",
         icon: "internal-injury",
-        subtitle: "You are stunned",
+        subtitle: "Sei stordito",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
+            "Sei incapacitato, non puoi muoverti e parli soltanto a fatica.",
             "Attack rolls against you have advantage.",
             "You automatically fail Strength and Dexterity saving throws."
         ]
     },
     {
-        title: "Unconscious",
+        title: "Privo di sensi",
         icon: "coma",
         subtitle: "You are unconscious",
         description: "You are unconscious",
@@ -179,7 +179,7 @@ data_condition = [
         ]
     },
     {
-        title: "Dying",
+        title: "Morente",
         icon: "dead-head",
         subtitle: "You are dying",
         description: "You have been dropped to zero hit points and are dying",
