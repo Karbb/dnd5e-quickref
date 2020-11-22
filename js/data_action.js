@@ -178,7 +178,7 @@ data_action = [
     {
         title: "Stabilizzare una creature",
         icon: "first-aid",
-        subtitle: "Somministra cure di pronto soccorso ad una creatura morente",
+        subtitle: "Soccorri una creatura morente",
         description: "Una creatura stabile non effettua tiri salvezza con morte",
         reference: "PHB, pg. 197.",
         bullets: [
